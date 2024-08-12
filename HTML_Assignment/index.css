@@ -1,0 +1,21 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: yellowgreen;
+}
+
+.container {
+  text-align: center;
+}
+
+.container-two {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
